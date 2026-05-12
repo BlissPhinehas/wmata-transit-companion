@@ -21,8 +21,8 @@ class TransitRepository(private val db: AppDatabase) {
                     routeId = it.routeId,
                     directionText = it.directionText,
                     minutes = it.minutes.toString(),
-                    tripHeadsign = it.tripHeadsign,
-                    stopId = it.stopId
+                    tripHeadsign = it.tripHeadsign ?: it.directionText,
+                    stopId = stopId
                 )
             }
             Result.success(arrivals)

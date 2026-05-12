@@ -10,8 +10,8 @@ data class BusPrediction(
     @SerializedName("RouteID") val routeId: String,
     @SerializedName("DirectionText") val directionText: String,
     @SerializedName("Minutes") val minutes: Int,
-    @SerializedName("TripHeadsign") val tripHeadsign: String,
-    @SerializedName("StopID") val stopId: String
+    @SerializedName("VehicleID") val vehicleId: String?,
+    @SerializedName("TripHeadsign") val tripHeadsign: String?
 )
 
 data class BusStopsResponse(
