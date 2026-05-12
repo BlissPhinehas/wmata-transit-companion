@@ -21,8 +21,7 @@ android {
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
-        manifestPlaceholders["AIzaSyChvYPprJ3tPKK09ZQyWoEaGvhaJhcBKiQ"] = localProperties.getProperty("AIzaSyChvYPprJ3tPKK09ZQyWoEaGvhaJhcBKiQ", "")
-
+        manifestPlaceholders["MAPS_API_KEY"] = localProperties.getProperty("MAPS_API_KEY", "")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         buildConfigField(
