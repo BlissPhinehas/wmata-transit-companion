@@ -78,6 +78,9 @@ This project uses two free APIs:
 Keys are stored in `local.properties` which is gitignored for security.
 
 ## 📸 Screenshots
+<img width="597" height="958" alt="image" src="https://github.com/user-attachments/assets/df9ebc5e-69c4-4e96-ac52-d02f549b9674" />
+<img width="588" height="946" alt="image" src="https://github.com/user-attachments/assets/be3bb1cf-3772-4228-afcf-fc516b74404a" />
+
 
 ## 📄 License
 
